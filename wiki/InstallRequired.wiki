@@ -7,9 +7,11 @@ OpenDoser uses Xdialog to show the graphical interface.
 
 == Installing Xdialog ==
 
+You need the build-essential and libgtk2.0-dev packages to compile.
 Enter the following commands:
 
 {{{
+$ sudo apt-get install build-essential libgtk2.0-dev
 $ wget http://xdialog.free.fr/Xdialog-2.3.1.tar.bz2
 $ tar -jxvf Xdialog-2.3.1.tar.bz2
 $ cd Xdialog-2.3.1
@@ -17,8 +19,7 @@ $ ./configure --with-gtk2 && make
 $ sudo make install
 }}}
 
-*NOTE:* libgtk2.0-dev is needed for compilation.
-In Ubuntu: 
+*NOTE:* for 64 bits, install the *ia32-libs* package. Type:
 {{{
-$ sudo apt-get install libgtk2.0-dev
+$ sudo apt-get install ia32-libs
 }}}
