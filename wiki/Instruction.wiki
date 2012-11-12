@@ -1,4 +1,5 @@
-#summary One-sentence summary of this page.
+#summary I-Doser Linux Player
+#labels Featured,Phase-Requirements
 
 = Installing on Ubuntu =
 
