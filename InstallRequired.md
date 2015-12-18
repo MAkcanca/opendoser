@@ -1,0 +1,24 @@
+## Introduction ##
+
+Xdialog is a GTK+ graphical interface for shell scripts.
+OpenDoser uses Xdialog to show the graphical interface.
+
+
+## Installing Xdialog on Ubuntu ##
+
+You need the build-essential and libgtk2.0-dev packages to compile.
+Enter the following commands:
+
+```
+$ sudo apt-get install build-essential libgtk2.0-dev
+$ wget http://xdialog.free.fr/Xdialog-2.3.1.tar.bz2
+$ tar -jxvf Xdialog-2.3.1.tar.bz2
+$ cd Xdialog-2.3.1
+$ ./configure --with-gtk2 && make
+$ sudo make install
+```
+
+**NOTE:** for 64 bits, install the **ia32-libs** package. Type:
+```
+$ sudo apt-get install ia32-libs
+```

@@ -1,0 +1,9 @@
+# Installing on Ubuntu #
+
+Download and install the **opendoser .deb package**.
+
+After installing, add the _Y PPA Manager_ to install YAD:
+```
+$ sudo apt-add-repository ppa:webupd8team/y-ppa-manager
+$ sudo apt-get update && sudo apt-get install -y yad
+```
